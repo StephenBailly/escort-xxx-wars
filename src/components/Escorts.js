@@ -14,12 +14,18 @@ const [escorts, setEscorts] = useState([])
 
     return (
         <div>
-            Escorts !
-            <div>
+            <h1 class="escortstitle">Nos Escorts !</h1>
+            <div class="escortsglobal">
                 {escorts.map((escort) => (
-                    <div>
-                        <p>{escort.name}</p>
-                        <img src={escort.image} alt={escort.name} />
+                    <div class="escortcontainer">
+                        <div class="imagecontainer">
+                            <img class="escortimage" src={escort.image} alt={escort.name} />
+                        </div>
+                        <div class="escortbox">   
+                            <p class="escortname">{escort.name}</p>
+                            {/* <p>{escort.species}</p> */}
+                        </div>  
+
                     </div>
 
                 ))}
