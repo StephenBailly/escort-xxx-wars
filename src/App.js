@@ -1,19 +1,19 @@
 import logo from './logo.svg';
-import App from './App';
+import NavBar from './components/NavBar'
 import {Routes, Route} from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
 
-      <header className="App-header">
-      <Navbar/>
+      <header>
+      <NavBar/>
 
-        <Routes>
+        {/*<Routes>
           <Route path="/" element={<Accueil />} />
           <Route path="/Escorts" element={<Escorts />} />
           <Route path="/Inscriptions" element={<Inscription />} />
-        </Routes> 
+        </Routes>*/}
         
       </header>
 
