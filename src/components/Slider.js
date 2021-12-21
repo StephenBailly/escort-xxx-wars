@@ -32,14 +32,17 @@ function Slider() {
         }
     ]
     return (
-        <Carousel>
+        <Carousel autoPlay infiniteLoop thumbWidth={100} showStatus={false} showIndicators={false}>
 
            
            {datas.map(slide =>(
+
                <div key={slide.id}>
                    <img src= {slide.image} />
-                   <h2>{slide.name}</h2>
-                 <div className="overlay"></div>
+                   
+                 
+                   <h2 className="title-carousel">{slide.name}</h2>
+                
 
                </div>
            ))}
