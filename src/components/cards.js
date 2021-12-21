@@ -7,9 +7,7 @@ const [card, setCard] = useState([])
         const getData = () => {
             fetch("https://miadil.github.io/starwars-api/api")
         }
-
-    }
-    )
+    }, [])
 
 }
 
