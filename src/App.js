@@ -1,10 +1,23 @@
-import './App.css';
-import Slider from './components/Slider';
+
+import NavBar from './components/NavBar'
+import {Routes, Route} from 'react-router-dom'
+import Escorts from './components/Escorts'
 
 function App() {
   return (
     <div className="App">
-      <Slider />
+
+      <header>
+      <NavBar/>
+
+        <Routes>
+          {/* <Route path="/" element={<Accueil />} /> */}
+          <Route path="/Escorts" element={<Escorts />} />
+          {/* <Route path="/Inscriptions" element={<Inscription />} /> */}
+        </Routes>
+        
+      </header>
+
     </div>
   );
 }

@@ -3,8 +3,36 @@
 }
 
 .App {
+<<<<<<< HEAD
   max-width: 900px;
   margin: 0 auto;
 }
 
 
+=======
+
+}
+
+.navbar {
+  height: 100%;
+  background-color: hotpink;
+  align-items: center;
+
+}
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  border: indigo solid 5px;
+  height: 70px;
+  align-items: center;
+
+}
+.pages {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  border: greenyellow solid 3px;
+  padding: 10px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+>>>>>>> a937951648f2019f2bd04dd7dc575a29880a53d3
