@@ -3,17 +3,17 @@ import "../App.css"
 
 function Navbar() {
     return (
-        <nav>
+        <nav className="navbar">
             <ul className="list">
-               <NavLink to="./">
+               {/*<NavLink to="./">*/}
                 <li className="pages">Accueil</li>
-               </NavLink> 
-               <NavLink to="path to Escorts" >
+               {/*</NavLink>*/}
+               {/*<NavLink to="path to Escorts" >*/}
                 <li className="pages">Escorts</li>
-               </NavLink>
-               <NavLink to="path to Experts" >
+               {/*</NavLink>*/}
+               {/*<NavLink to="path to Experts" >*/}
                 <li className="pages">Inscription</li>
-                </NavLink>
+                {/*</NavLink>*/}
             </ul>
         </nav>
     )
