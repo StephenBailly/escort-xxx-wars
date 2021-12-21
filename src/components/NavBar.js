@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import {NavLink} from 'react-router-dom'
 import "../App.css"
 
 function Navbar() {
@@ -8,9 +9,9 @@ function Navbar() {
                {/*<NavLink to="./">*/}
                 <li className="pages">Accueil</li>
                {/*</NavLink>*/}
-               {/* <NavLink to="Escorts" > */}
+               <NavLink to="/Escorts">
                 <li className="pages">Escorts</li>
-               {/* </NavLink> */}
+                </NavLink>
                {/*<NavLink to="path to Experts" >*/}
                 <li className="pages">Inscription</li>
                 {/*</NavLink>*/}
