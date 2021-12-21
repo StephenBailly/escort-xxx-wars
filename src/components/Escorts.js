@@ -15,10 +15,12 @@ const [escorts, setEscorts] = useState([])
     return (
         <div>
             <h1 class="escortstitle">Nos Escorts !</h1>
+            <h2 class="subtitle">Choisissez parmis un large panel</h2>
             <div class="escortsglobal">
                 {escorts.map((escort) => (
                     <div class="escortcontainer">
                         <div class="imagecontainer">
+                            <img class="imglogo" src="https://www.beinmediagroup.com/fr/wp-content/uploads/sites/2/2016/10/LOGO-SALON-VIP-BLACK.png" alt="viplogo" />
                             <img class="escortimage" src={escort.image} alt={escort.name} />
                         </div>
                         <div class="escortbox">   
