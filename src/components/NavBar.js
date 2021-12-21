@@ -11,7 +11,7 @@ function Navbar() {
                 <li className="pages">Accueil</li>
                {/*</NavLink>*/}
                <NavLink to="/Escorts" className={(navData) => (navData.isActive ? "chosen" : "")}>
-                <li className="pages">Escorts</li>
+               <li className="pages">Escorts</li>
                </NavLink>
                {/*<NavLink to="/Inscriptions" className={(navData) => (navData.isActive ? "chosen" : "")} >*/}
                 <li className="pages">Inscription</li>
