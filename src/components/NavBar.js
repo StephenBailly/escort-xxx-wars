@@ -6,7 +6,7 @@ function Navbar() {
     return (
         <nav className="navbar">
             <ul className="list">
-               {/*<NavLink to="./">*/}
+               {/*<NavLink to="./" className={(navData) => (navData.isActive ? "chosen" : "")}>*/}
                 <li className="pages">Accueil</li>
                {/*</NavLink>*/}
                <NavLink to="/Escorts">
