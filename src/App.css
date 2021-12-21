@@ -1,6 +1,6 @@
-.App {
+/* .App {
 
-}
+} */
 
 .navbar {
   height: 100%;
@@ -24,3 +24,18 @@
   padding: 10px;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+.list a.chosen,
+.list a:hover{
+  /* color:white; */
+  background-color: greenyellow;
+}
+
+.list a{
+  /* color:white; */
+  text-decoration:none;
+}
+
+/* a {
+  cursor: url('/public/eggplant.png'), default;
+} */

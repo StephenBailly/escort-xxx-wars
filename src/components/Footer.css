@@ -1,0 +1,42 @@
+.footer{
+    background-color: hotpink;
+    position: relative;
+    padding: 0;
+    text-align: center;
+    display: block;
+    height: 55px;
+    width:100%;
+    margin-top: 20px;
+    
+}
+
+/* .iconesSocialMedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+} */
+
+.aPropos{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    margin: 10px;
+    padding-top: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+}
+
+/* .contactContainer {
+    width: 33%;
+}
+
+.footerSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.footerSection p {
+    font-size: 15px;
+    margin-bottom: 5px
+} */
