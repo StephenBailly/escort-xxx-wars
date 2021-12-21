@@ -21,7 +21,7 @@ const ContactForm = () => {
   }
 
   return (
-    <form
+    <form className="form-global"
       action={FORM_ENDPOINT}
       onSubmit={handleSubmit}
       method=""
