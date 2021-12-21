@@ -11,9 +11,9 @@ function App() {
       <NavBar/>
 
         <Routes>
-          {/* <Route path="/" element={<Accueil />} /> */}
+          {/*<Route path="/" element={<Accueil />} />*/} 
           <Route path="/Escorts" element={<Escorts />} />
-          {/* <Route path="/Inscriptions" element={<Inscription />} /> */}
+         {/*<Route path="/Inscriptions" element={<Inscription />} />*/}
         </Routes>
         
       </header>
