@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./components/requestForm.css";
 
 const FORM_ENDPOINT = "";
 
@@ -29,27 +30,29 @@ const ContactForm = () => {
     >
 
 
-      <h1>Réservation</h1><h4>Merci de nous indiquer vos préférences ainsi que tout commentaire utile à la réservation</h4>
+      <h1 className="form-h1">Réservation</h1><h4 className="form-h4">Merci de nous indiquer vos préférences ainsi que tout commentaire utile à la réservation</h4>
 
+      
       <div>
-        <input type="text" placeholder="Your name" name="name" required />
+        <input className="mandatory-data" type="text" placeholder="Your name" name="name" required />
       </div>
       <div>
-        <input type="email" placeholder="Email" name="email" required />
+        <input className="mandatory-data" type="email" placeholder="Email" name="email" required />
       </div>
+      
         <div>
-          <select>
+          <select className="form-dropdownmenu">
             <option value="Peluche">Peluche</option>
             <option value="Humanoïde">Humanoïde</option>
             <option value="Droïde">Droïde</option>
           </select>
         </div>
       <div>
-        <textarea placeholder="Comments" name="message" />
+        <textarea className="form-message" placeholder="Comments" name="message" />
       </div>
       
       <div>
-        <button type="submit">Send your request</button>
+        <button className="form-submit" type="submit">Envoie</button>
       </div>
     </form>
   );
