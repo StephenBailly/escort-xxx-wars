@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./components/requestForm.css";
+import "./requestForm.css";
 
 const FORM_ENDPOINT = "";
 
