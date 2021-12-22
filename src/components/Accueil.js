@@ -11,6 +11,7 @@ const Accueil = () => {
             Sans plus tarder nous vous invitons à naviguer sur notre site pour trouver votre compagnon de jeu idéal.
             May there Force Be In You!
             </p>
+            <h1 className="underage" >-18</h1>
         </div>
     )
 
