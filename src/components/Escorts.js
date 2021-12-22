@@ -1,5 +1,8 @@
 import React, {useState, useEffect} from 'react';
+import Card from './Card';
+import { NavLink } from 'react-router-dom'
 import './escorts.css';
+import { Router } from 'react-router-dom';
 
 const Escorts = () => {
     const [escorts, setEscorts] = useState([]);
@@ -26,7 +29,7 @@ const Escorts = () => {
                  const massArray = massObj.sort((a,b) => {
                      return b.mass - a.mass
                  });
-                 console.log("massArray",massArray);
+                 console.log("massArray",massArray)
                  massArray.length = rangeValue;
                  setMass(massArray);
              }
@@ -66,16 +69,16 @@ const Escorts = () => {
                     {mass
                     .filter((escort)=>( !selectedHuman || escort.species.includes("human")) && ( !selectedDroid || escort.species.includes("droid")) && ( !selectedAlien|| (escort.species !=="human" && escort.species !=="droid")))
                     .map((escort) => (  
-                        <div class="escortcontainer">
-                            <div class="imagecontainer">
-                                <img class="escortimage" src={escort.image} alt={escort.name} />
-                            </div>
-                            <div class="escortbox">   
-                                <p class="escortname">{escort.name}</p>
-                                {/* <p>{escort.species}</p> */}
-                            </div>  
-
-                        </div>
+                        <div>
+                           
+                            <Card
+                            key={escort.id}
+                            id={escort.id}
+                            name={escort.name}
+                            image={escort.image}
+                            />
+                            
+                        </div>  
                     ))}
 
                                     </div>
