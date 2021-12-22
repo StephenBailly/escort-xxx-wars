@@ -1,6 +1,7 @@
-// import React, {useState, useEffect} from 'react'
-import { NavLink } from 'react-router-dom'
+import React, {useState, useEffect} from 'react'
+import {NavLink} from 'react-router-dom'
 import "../App.css"
+
 
 function Navbar() {
     return (
@@ -9,12 +10,12 @@ function Navbar() {
                <NavLink to="./" className={(navData) => (navData.isActive ? "chosen" : "")}>
                 <li className="pages">Accueil</li>
                </NavLink>
-               <NavLink to="/Escorts" className={(navData) => (navData.isActive ? "chosen" : "")} >
-                <li className="pages">Escorts</li>
+               <NavLink to="/Escorts" className={(navData) => (navData.isActive ? "chosen" : "")}>
+               <li className="pages">Escorts</li>
                </NavLink>
-               {/*<NavLink to="/Inscriptions" className={(navData) => (navData.isActive ? "chosen" : "")} >*/}
+               <NavLink to="/requestForm" className={(navData) => (navData.isActive ? "chosen" : "")} >
                 <li className="pages">Inscription</li>
-                {/*</NavLink> */}
+                </NavLink>
             </ul>
         </nav>
     )

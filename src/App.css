@@ -1,3 +1,14 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  /* max-width:1024px; */
+  margin: 0 auto;
+}
+
+
 .navbar {
   height: 100%;
   background-color: hotpink;
@@ -24,6 +35,7 @@
 .list a.chosen,
 .list a:hover{
   background-color: greenyellow;
+  border-radius: 15px;
 }
 
 .list a{
