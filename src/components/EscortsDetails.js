@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react'
 import { useParams } from 'react-router-dom'
+import "./Card.css"
 
 const EscortsDetails = () => {
     const [escort, setEscort] = useState([])
@@ -36,8 +37,8 @@ return (
          <div> 
          <h2>{name}</h2>
          <div>
-         <img src={image} alt={name} />
-         </div>
+         <img className="CardImg" src={image} alt={name} />
+        </div>
      <div>height : {height}</div>
      <div> mass : {mass}</div>
      <div> gender : {gender}</div>
@@ -48,7 +49,7 @@ return (
      <div>born : {born}</div>
      <div>bornLocation : {bornLocation}</div>
      <div>died,: {died}</div> </div>
-         ) : (<div>Loading</div>)}
+        ) : (<div>Loading</div>)}
         
         </div>
     )
