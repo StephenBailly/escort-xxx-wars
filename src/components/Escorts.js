@@ -22,9 +22,9 @@ const [escorts, setEscorts] = useState([])
                 {escorts.map((escort) => (
                     <div class="escortcontainer">
                         <div class="imagecontainer">
-                            <NavLink to="/Inscription">
+                            {/* <NavLink to="/Inscription"> */}
                                 <img class="imglogo" src="https://www.beinmediagroup.com/fr/wp-content/uploads/sites/2/2016/10/LOGO-SALON-VIP-BLACK.png" alt="viplogo" />
-                            </link>
+                            {/* </link> */}
                             <img class="escortimage" src={escort.image} alt={escort.name} />
                         </div>
                         <div class="escortbox">   

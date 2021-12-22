@@ -1,17 +1,13 @@
+
 * {
   box-sizing: border-box;
 }
 
 .App {
-<<<<<<< HEAD
-  max-width: 900px;
+  /* max-width:1024px; */
   margin: 0 auto;
 }
 
-
-=======
-
-}
 
 .navbar {
   height: 100%;
@@ -35,10 +31,3 @@
   padding: 10px;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-<<<<<<< HEAD
->>>>>>> a937951648f2019f2bd04dd7dc575a29880a53d3
-=======
-
-
-
->>>>>>> 21c88836d50326aa057bbfa6e40a0fd2d3d3c86b

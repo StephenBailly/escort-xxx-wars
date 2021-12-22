@@ -8,11 +8,8 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-<<<<<<< HEAD
     "react-responsive-carousel": "^3.2.22",
-=======
     "react-router-dom": "^6.2.1",
->>>>>>> a937951648f2019f2bd04dd7dc575a29880a53d3
     "react-scripts": "5.0.0",
     "web-vitals": "^2.1.2"
   },
