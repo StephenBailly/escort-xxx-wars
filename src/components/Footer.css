@@ -9,6 +9,7 @@
     margin-top: 50px;
     display: flex;
     justify-content: flex-start;
+    border: indigo solid 5px;
     /* border: solid black 3px; */
     
 }
