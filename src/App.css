@@ -1,6 +1,13 @@
-.App {
 
+* {
+  box-sizing: border-box;
 }
+
+.App {
+  /* max-width:1024px; */
+  margin: 0 auto;
+}
+
 
 .navbar {
   height: 100%;
@@ -25,5 +32,14 @@
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.list a.chosen,
+.list a:hover{
+  background-color: greenyellow;
+  border-radius: 15px;
+}
+
+.list a{
+  text-decoration:none;
+}
 
 
