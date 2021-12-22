@@ -81,6 +81,7 @@
     background: #ff69b4;
     color: black;
     box-shadow: 0 2px 2px rgba(51, 51, 51, 0.3);
+    border: indigo solid 2px;
 }
 
 .sort-ul {
@@ -96,3 +97,25 @@
     border-radius: 80px;
     margin-left: 200px;
 }
+
+.species-button {
+    display : flex;
+    justify-content: space-around;
+}
+
+.species-button button {
+    display:block;
+    width:130px;
+    line-height:30px;
+    text-align:center;
+    background:rgba(255,105,180,1);
+    color: indigo;
+    border-radius: 20px;
+    border: greenyellow solid 3px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    }
+
+.species-button button:hover {
+    text-decoration: underline;
+    }
