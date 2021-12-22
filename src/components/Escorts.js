@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from 'react';
+import { NavLink } from 'react-router-dom'
 import './escorts.css';
+import { Router } from 'react-router-dom';
 
 const Escorts = () => {
 const [escorts, setEscorts] = useState([])
@@ -20,7 +22,9 @@ const [escorts, setEscorts] = useState([])
                 {escorts.map((escort) => (
                     <div class="escortcontainer">
                         <div class="imagecontainer">
-                            <img class="imglogo" src="https://www.beinmediagroup.com/fr/wp-content/uploads/sites/2/2016/10/LOGO-SALON-VIP-BLACK.png" alt="viplogo" />
+                            {/* <NavLink to="/Inscription"> */}
+                                <img class="imglogo" src="https://www.beinmediagroup.com/fr/wp-content/uploads/sites/2/2016/10/LOGO-SALON-VIP-BLACK.png" alt="viplogo" />
+                            {/* </link> */}
                             <img class="escortimage" src={escort.image} alt={escort.name} />
                         </div>
                         <div class="escortbox">   

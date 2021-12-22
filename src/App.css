@@ -1,6 +1,13 @@
-.App {
 
+* {
+  box-sizing: border-box;
 }
+
+.App {
+  /* max-width:1024px; */
+  margin: 0 auto;
+}
+
 
 .navbar {
   height: 100%;
@@ -24,6 +31,3 @@
   padding: 10px;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
-
-
