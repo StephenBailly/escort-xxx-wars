@@ -1,44 +1,64 @@
 .form-global {
 
-    background-color: pink;
-    width: 800px;
+    margin: 0px 20vw;
+    margin-top: 120px;
+    background-color: hotpink;
+    width: 60vw;
     height: 600px;
     border-radius: 30px;
-  
+    text-align: center;
+    box-shadow: 10px 5px 5px indigo;
+
   }
   
   .form-h1 {
-    margin-top: 20px;
+    color: indigo;
+    margin-top: 0px;
+
+  }
+
+  .form-h4 {
+    
+    color: indigo;
   }
   
   .mandatory-data {
-    margin: 10px;
+
+    margin: 15px;
     width: 200px;
+    border-radius: 10px;
+    border: 0;
   
   }
   
   .form-dropdownmenu {
   
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     width: 140px;
-  
+    border-radius: 10px;
+    border: 0;
   
   }
   
   .form-message {
-    width: 200px;
-    height: 100px;
-    
+
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    border: 0;
     
   }
   
   .form-submit {
+
     margin-top: 20px;
     border-radius: 10px;
     width: 100px;
     height: 25px;
     text-transform: uppercase;
     background-color: white;
-    color: rgb(168, 122, 130);
+    color: hotpink;
+    border: 0;
     
   }

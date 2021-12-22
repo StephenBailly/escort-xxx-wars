@@ -3,7 +3,7 @@ import "./requestForm.css";
 
 const FORM_ENDPOINT = "";
 
-const ContactForm = () => {
+const Inscription = () => {
   const [submitted, setSubmitted] = useState(false);
   const handleSubmit = () => {
     setTimeout(() => {
@@ -15,8 +15,10 @@ const ContactForm = () => {
   if (submitted) {
     return (
       <>
-        <h2>Merci beaucoup!</h2>
-        <div>Bobba vous recontactera pour les modalités de paiement.</div>
+        <div className="Confirmation-form">
+          <h2>Merci beaucoup!</h2>
+          <h2>Bobba vous recontactera pour les modalités de paiement.</h2>
+        </div>
       </>
     );
   }
@@ -58,4 +60,4 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;
+export default Inscription;
