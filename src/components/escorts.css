@@ -1,0 +1,86 @@
+.escortsglobal {
+    
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        
+    
+}
+
+.escortbox {
+    display: flex;
+    justify-content: center;
+
+}
+
+.escortname {
+    display: flex;
+    font-family: 'Yellowtail', cursive;
+    font-size: 36px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 25px 25px 25px 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.escortstitle {
+    display: flex;
+    color: black;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    font-family: 'Road Rage', cursive;
+    font-size: 64px;
+    justify-content: center;
+
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    font-family: 'Yellowtail', cursive;
+
+}
+
+.escortcontainer {
+    /* background-color: #ff69b4; */
+    background: linear-gradient(0deg, rgba(255,105,180,0.30015756302521013) 0%, rgba(255,105,180,1) 100%);
+    cursor: pointer;
+    margin: 20px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #FFB4E4;
+    -webkit-border-radius: 25px 25px 25px 0px;
+    -moz-border-radius: 25px 25px 25px 0px;
+    border-radius: 25px 25px 25px 0px;
+    transition: transform 0.5s;
+    
+}
+.escortcontainer:hover {
+    transform: scale(1.03);
+    box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+}
+.imagecontainer {
+    height: 300px;
+    width: 250px;
+    margin: 30px;
+    
+    
+}
+
+.escortimage {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    
+
+
+}
+
+.imglogo {
+
+    position: absolute;
+    max-width: 70px;
+    background: rgb(0, 255, 221);
+    border-radius: 80px;
+    margin-left: 200px;
+}
