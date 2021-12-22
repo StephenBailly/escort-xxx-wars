@@ -31,3 +31,15 @@
   padding: 10px;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+.list a.chosen,
+.list a:hover{
+  background-color: greenyellow;
+  border-radius: 15px;
+}
+
+.list a{
+  text-decoration:none;
+}
+
+
