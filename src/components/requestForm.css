@@ -4,16 +4,23 @@
     margin-top: 120px;
     background-color: hotpink;
     width: 60vw;
-    height: 600px;
+    height: 640px;
     border-radius: 30px;
     text-align: center;
     box-shadow: 10px 5px 5px indigo;
+    border: 5px solid indigo;
 
   }
   
   .form-h1 {
+
     color: indigo;
-    margin-top: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: greenyellow solid 3px;
+    border-radius: 30px;
+    margin-right: 22vw;
+    margin-left: 22vw;
 
   }
 
@@ -27,18 +34,34 @@
     margin: 15px;
     width: 200px;
     border-radius: 10px;
-    border: 0;
+    border: 2px solid indigo;
   
   }
   
   .form-dropdownmenu {
   
     margin-top: 20px;
+    margin-bottom: 5x;
+    width: 140px;
+    border-radius: 10px;
+    border: 2px solid indigo;
+    color: indigo;
+    text-align: center;
+    text-weight: 700px;
+  
+  }
+
+  .form-dropdownmenu2 {
+    margin-top: 20px;
     margin-bottom: 40px;
     width: 140px;
     border-radius: 10px;
-    border: 0;
-  
+    border: 2px solid indigo;
+    color: indigo;
+    text-align: center;
+    text-weight: 700px;
+
+
   }
   
   .form-message {
@@ -46,7 +69,7 @@
     width: 400px;
     height: 200px;
     border-radius: 10px;
-    border: 0;
+    border: 3px solid indigo;
     
   }
   
@@ -59,6 +82,13 @@
     text-transform: uppercase;
     background-color: white;
     color: hotpink;
-    border: 0;
+    border: 1px solid indigo;
     
+  }
+
+  .Confirmation-form {
+    text-align: center;
+    padding: 200px;
+    background-color: hotpink;
+    color: indigo;
   }

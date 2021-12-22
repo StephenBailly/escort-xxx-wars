@@ -49,6 +49,13 @@ const Inscription = () => {
             <option value="Droïde">Droïde</option>
           </select>
         </div>
+        <div>
+          <select className="form-dropdownmenu2">
+            <option value="Masculin">Masculin</option>
+            <option value="Féminin">Féminin</option>
+            <option value="Neutre">Neutre</option>
+          </select>
+        </div>
       <div>
         <textarea className="form-message" placeholder="Comments" name="message" />
       </div>
