@@ -1,0 +1,44 @@
+.form-global {
+
+    background-color: pink;
+    width: 800px;
+    height: 600px;
+    border-radius: 30px;
+  
+  }
+  
+  .form-h1 {
+    margin-top: 20px;
+  }
+  
+  .mandatory-data {
+    margin: 10px;
+    width: 200px;
+  
+  }
+  
+  .form-dropdownmenu {
+  
+    margin-bottom: 20px;
+    width: 140px;
+  
+  
+  }
+  
+  .form-message {
+    width: 200px;
+    height: 100px;
+    
+    
+  }
+  
+  .form-submit {
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
+    text-transform: uppercase;
+    background-color: white;
+    color: rgb(168, 122, 130);
+    
+  }

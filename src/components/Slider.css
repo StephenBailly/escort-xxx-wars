@@ -1,0 +1,43 @@
+.carousel{
+    position: relative;
+}
+
+.carousel .thumbs{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10px; 
+    border-radius: 3px;
+}
+.carousel .thumb{
+    margin: 0 5px;
+    cursor: pointer;
+    width: 300px;
+    border-radius: 3px;
+    
+}
+
+.carousel .overlay{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+    padding: 0,4rem 1.5rem;
+    /* text-align: center; */
+    background-color: rgba(0, 0, 0, 0, 6);
+    
+}
+
+.carousel .slide img {
+    height: 500px;
+    width: 400px;
+    
+    
+
+}
+
+.title-carousel{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: hotpink;
+}
