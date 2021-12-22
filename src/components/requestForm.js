@@ -32,7 +32,7 @@ const Inscription = () => {
     >
 
 
-      <h1 className="form-h1">Réservation</h1><h4 className="form-h4">Merci de nous indiquer vos préférences ainsi que tout commentaire utile à la réservation</h4>
+      <h1 className="form-h1">Réservation</h1><h3 className="form-h4">Merci de nous indiquer vos préférences ainsi que tout commentaire utile à la réservation</h3>
 
       
       <div>
@@ -41,7 +41,7 @@ const Inscription = () => {
       <div>
         <input className="mandatory-data" type="email" placeholder="Email" name="email" required />
       </div>
-      
+      <div className="preference"><h4>Préférences</h4></div>
         <div>
           <select className="form-dropdownmenu">
             <option value="Peluche">Peluche</option>
@@ -61,7 +61,7 @@ const Inscription = () => {
       </div>
       
       <div>
-        <button className="form-submit" type="submit">Envoie</button>
+        <button className="form-submit" type="submit">Envoi</button>
       </div>
     </form>
   );

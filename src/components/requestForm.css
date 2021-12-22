@@ -1,14 +1,17 @@
 .form-global {
 
     margin: 0px 20vw;
-    margin-top: 120px;
+    margin-top: 60px;
     background-color: hotpink;
     width: 60vw;
-    height: 640px;
+    height: 680px;
     border-radius: 30px;
     text-align: center;
     box-shadow: 10px 5px 5px indigo;
     border: 5px solid indigo;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
 
   }
   
@@ -18,9 +21,10 @@
     margin-top: 5px;
     margin-bottom: 5px;
     border: greenyellow solid 3px;
-    border-radius: 30px;
-    margin-right: 24vw;
-    margin-left: 24vw;
+    border-radius: 30px; 
+    padding: 10px;
+    width: 250px;
+    align-self: center;
 
   }
 
@@ -37,10 +41,21 @@
     border: 2px solid indigo;
   
   }
+
+  .preference {
+    color: indigo;
+    text-weight: 700;
+    margin-top: -5px;
+    border-radius: 20px;
+    width: 100px;
+    align-self: center;
+  
+
+  }
   
   .form-dropdownmenu {
   
-    margin-top: 20px;
+    margin-top: 0px;
     margin-bottom: 5x;
     width: 140px;
     border-radius: 10px;
@@ -66,8 +81,8 @@
   
   .form-message {
 
-    width: 400px;
-    height: 200px;
+    width: 40%;
+    height: 100px;
     border-radius: 10px;
     border: 3px solid indigo;
     
@@ -81,8 +96,9 @@
     height: 25px;
     text-transform: uppercase;
     background-color: white;
-    color: hotpink;
+    color: indigo;
     border: 1px solid indigo;
+    box-shadow: 5px 5px 5px indigo;
     
   }
 
