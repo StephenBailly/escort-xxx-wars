@@ -34,7 +34,7 @@ const EscortsDetails = () => {
 return ( 
      <div>
          {loading ? (
-         <div> 
+         <div className="CardDetails"> 
          <h2>{name}</h2>
          <div>
          <img className="CardImg" src={image} alt={name} />
@@ -49,7 +49,7 @@ return (
      <div>born : {born}</div>
      <div>bornLocation : {bornLocation}</div>
      <div>died,: {died}</div> </div>
-        ) : (<div>Loading</div>)}
+    ) : (<div>Loading</div>)}
         
         </div>
     )
