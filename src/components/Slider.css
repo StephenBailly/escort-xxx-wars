@@ -7,11 +7,13 @@
     justify-content: center;
     margin: 0;
     padding: 10px; 
+    border-radius: 3px;
 }
 .carousel .thumb{
     margin: 0 5px;
     cursor: pointer;
     width: 300px;
+    border-radius: 3px;
     
 }
 
