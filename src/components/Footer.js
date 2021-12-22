@@ -1,23 +1,21 @@
-import React from "react";
+import React from "react"
 import "./Footer.css"
+import Img from "./Img.png"
 
 
 
 const Footer = () => (
   <div className="footer">
       <section className="footerSection"> 
-        {/* <div className="socialMedia">
-            <ul className="iconesSocialMedia">
-                <li className="logo">
-                    <img src="../images/instagram.jpg"/>
-                </li>
-                <li className="logo">
-                    <img src = "../images/facebook.jpg"/>
-                </li>   
-            </ul> */}
             <ul className = "aPropos">
+            <div className="emojiContainer">
+                <img className="emoji" src={Img}/>
+            </div> 
                 <li>
                 A propos de nous 
+                </li>
+                <li>
+                FAQ
                 </li>
             </ul>    
       </section>
