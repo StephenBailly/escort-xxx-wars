@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/escort-xxx-wars/static/css/main.e355479d.css",
-    "main.js": "/escort-xxx-wars/static/js/main.7036b513.js",
-    "static/js/787.1322e2de.chunk.js": "/escort-xxx-wars/static/js/787.1322e2de.chunk.js",
-    "static/media/Img.png": "/escort-xxx-wars/static/media/Img.47eb2ffee0187b3ac84f.png",
-    "index.html": "/escort-xxx-wars/index.html",
-    "main.e355479d.css.map": "/escort-xxx-wars/static/css/main.e355479d.css.map",
-    "main.7036b513.js.map": "/escort-xxx-wars/static/js/main.7036b513.js.map",
-    "787.1322e2de.chunk.js.map": "/escort-xxx-wars/static/js/787.1322e2de.chunk.js.map"
+    "main.css": "/StephenBailly.github.io/escort-xxx-wars/static/css/main.e355479d.css",
+    "main.js": "/StephenBailly.github.io/escort-xxx-wars/static/js/main.489d56bf.js",
+    "static/js/787.1322e2de.chunk.js": "/StephenBailly.github.io/escort-xxx-wars/static/js/787.1322e2de.chunk.js",
+    "static/media/Img.png": "/StephenBailly.github.io/escort-xxx-wars/static/media/Img.47eb2ffee0187b3ac84f.png",
+    "index.html": "/StephenBailly.github.io/escort-xxx-wars/index.html",
+    "main.e355479d.css.map": "/StephenBailly.github.io/escort-xxx-wars/static/css/main.e355479d.css.map",
+    "main.489d56bf.js.map": "/StephenBailly.github.io/escort-xxx-wars/static/js/main.489d56bf.js.map",
+    "787.1322e2de.chunk.js.map": "/StephenBailly.github.io/escort-xxx-wars/static/js/787.1322e2de.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e355479d.css",
-    "static/js/main.7036b513.js"
+    "static/js/main.489d56bf.js"
   ]
 }
